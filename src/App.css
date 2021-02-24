@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.App {
+  font-family: "Montserrat", sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+}
+
+.Search-Button {
+  background-color: #495d69;
+  color: #ffffff;
+  border-radius: 7%;
+  border-color: #495d69;
+}
+
+.Add-Task-button {
+  background-color: #0c0d0d;
+  color: #ffffff;
+  width: 120px;
+}
+.tableContainer {
+  margin-top: 15px;
+}
+.counterPad {
+  background-color: #f4f5f6;
+  height: auto;
+  margin-top: 24px;
+  position: sticky;
+}
+.counterCard {
+  padding: 42px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.taskContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.inTaskContainer {
+  cursor: pointer;
+  width: 100%;
+}
+
+.custom-model {
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  height: 20%;
+}
+
+.taskColumn {
+  width: 20%;
+}
+.rowData {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-self: flex-end;
+}
