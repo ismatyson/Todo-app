@@ -30,6 +30,7 @@ const TaskForm = (props) => {
   return (
     <div className={classes.paper}>
       <Form.Group controlId="formBasicEmail">
+        <h1>ADD A TASK</h1>
         <Form.Label>Title</Form.Label>
         <Form.Control
           type="text"
